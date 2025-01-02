@@ -16,7 +16,9 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
   height: 100%;
   overflow-y: auto;
   width: v.$sidebar-width;
-  background: var(--sidebar-bg);
+  //background: var(--sidebar-bg);
+  background: rgb(2,31,37);
+  background: linear-gradient(90deg, rgba(2,31,37,1) 0%, rgba(28,26,75,1) 0%, rgba(0,42,51,1) 55%, rgba(1,27,18,1) 100%);
   border-right: 1px solid var(--sidebar-border-color);
 
   /* Hide scrollbar for IE, Edge and Firefox */
@@ -100,7 +102,7 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
 
     font-family: inherit;
     font-weight: 900;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     line-height: 1.2;
     letter-spacing: 0.25px;
     margin-top: 1.25rem;
@@ -110,7 +112,7 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
   }
 
   .site-subtitle {
-    font-size: 95%;
+    font-size: 90%;
     color: var(--site-subtitle-color);
     margin-top: 0.25rem;
     word-spacing: 1px;
@@ -135,7 +137,7 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
 
       a.nav-link {
         @include mx.pt-pb(0.6rem);
-
+        color: rgb(143,155,167);
         display: flex;
         align-items: center;
         border-radius: 0.75rem;
