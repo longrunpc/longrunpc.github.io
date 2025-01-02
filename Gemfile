@@ -12,3 +12,10 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
 end
 
 gem "wdm", "~> 0.2.0", :platforms => [:mingw, :x64_mingw, :mswin]
+
+gem 'rack', '~> 2.2'
+gem 'rack-protection', '~> 2.0'
+gem 'sinatra', '~> 2.0'
+gem 'sinatra-contrib', '~> 2.0'
+gem 'webrick', '~> 1.7'
+gem 'jekyll-admin', group: :jekyll_plugins
