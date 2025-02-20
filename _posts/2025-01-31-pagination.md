@@ -20,7 +20,7 @@ mermaid: true
 
 - **Offset 기반 페이지네이션**  
   특정 페이지의 데이터를 조회하는 방식입니다.  
-  ![]({{ 'assets/img/docs/스크린샷 2025-01-31 오후 4.23.36.png' | relative_url }})
+  ![]({{ 'assets/img/docs/pagination1.png' | relative_url }})
 
 - **Cursor 기반 페이지네이션**  
   무한 스크롤과 같이 특정 컬럼 값을 기준으로 다음 페이지의 데이터를 가져오는 **No-Offset 방식**입니다.

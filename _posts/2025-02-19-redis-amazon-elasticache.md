@@ -30,7 +30,7 @@ Amazon ElastiCache에서는 두 가지 운영 방식을 제공합니다:
 
 ## Serverless 캐시
 
-<img src="assets/img/docs/스크린샷 2025-02-20 오후 2.25.50.png" alt="Serverless 이미지" style="float: left; margin-right: 400px;">
+<img src="assets/img/docs/elasticache1.png" alt="Serverless 이미지" style="float: left; margin-right: 400px;">
 -  **AWS가 자동으로 캐시 인프라를 프로비저닝, 확장, 관리**  
 -  사용자가 직접 클러스터를 설정할 필요 없음  
 -  트래픽 변화에 따라 **자동 확장(Auto Scaling)**  
@@ -42,7 +42,7 @@ Amazon ElastiCache에서는 두 가지 운영 방식을 제공합니다:
 
 ## 자체 ElastiCache 클러스터
 
-<img src="assets/img/docs/스크린샷 2025-02-20 오후 2.27.16.png" alt="elasticache cluster 이미지" style="float: left; margin-right: 400px;">
+<img src="assets/img/docs/elasticache2.png" alt="elasticache cluster 이미지" style="float: left; margin-right: 400px;">
 -  사용자가 직접 **클러스터를 생성하고 운영**하는 방식  
 -  **노드 개수, Sharding, Replication 등 세부 설정 가능**  
 -  **Redis Sentinel, Redis Cluster 지원 가능**  
